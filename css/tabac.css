@@ -490,7 +490,7 @@
 .thanks-page {
   background: #111;
   color: #eee;
-  text-align: center;
+  /* text-align: center; */
   padding: 60px 20px;
 }
 
