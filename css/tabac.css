@@ -438,7 +438,7 @@
 }
 
 
-/* 予約フォーム */
+/* 予約フォーム *
 .reserve-form {
   max-width: 500px;
   margin: 0 auto;
@@ -485,8 +485,8 @@
 .reserve-btn:hover {
   background: #e0b95c;
 }
-
-/* 送信完了ページ */
+*/
+/* 送信完了ページ *
 .thanks-page {
   background: #111;
   color: #eee;
@@ -512,7 +512,7 @@
 .back-btn:hover {
   background: #e0b95c;
 }
-
+*/
     
     /* PC */
     @media (min-width: 900px) {
