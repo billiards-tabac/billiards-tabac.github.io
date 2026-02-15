@@ -229,19 +229,19 @@
    </p>
 </section>
 
-<!--
 <section id="reservation" class="reserve">
   <h1>予約</h1>
-  <form action="https://formspree.io/f/mdadqvzn" method="POST" class="reserve-form">
+  <form action="https://api.web3forms.com/submit" method="POST" class="reserve-form">
+
   <p>
+    -- アクセスキー --
+    <input type="hidden" name="access_key" value="916f6257-5388-4952-9550-fa774ca296d3">
+    
     -- 件名（メールタイトル） --
-    <input type="hidden" name="_subject" value="TABAC 昼予約フォームからの送信">
+    <input type="hidden" name="_subject" value="TABAC 予約フォームからの送信">
 
     -- 送信後のリダイレクト先 --
-        <input type="hidden" name="_redirect" value="https://billiards-tabac.github.io/reserve-thanks.html">
-
-    -- スパム対策（bot用の罠） --
-    <input type="text" name="_gotcha" style="display:none">
+    <input type="hidden" name="redirect" value="https://billiards-tabac.github.io/reserve-thanks.html">
 
     <label>お名前（必須）
       <input type="text" name="name" required>
@@ -271,7 +271,7 @@
   </p>
   </form>
 </section>
--->
+
 
 <section id="gallery">
   <h1>Gallery</h1>
